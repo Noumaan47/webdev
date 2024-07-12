@@ -1,0 +1,44 @@
+h1{
+    color:red;
+}
+h2{
+    color:blue;
+}
+img{
+    
+    width: 200px;
+    
+    object-fit: cover;
+}
+body{
+    background-color: blue;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+.social-img{
+    
+    width:2rem;
+    padding: 2rem;
+    
+}
+
+.main-container{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: solid black;
+    font-style: italic;
+}
